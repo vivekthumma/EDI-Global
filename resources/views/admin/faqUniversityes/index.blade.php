@@ -103,7 +103,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-label">University</label>
+                                <label class="form-label">University</label><span class="text-danger">*</span>
                                 <select name="university_id" class="form-select mb-2">
                                     <option value="">-- Select University --</option>
                                     @foreach ($universityes as $university)
@@ -114,13 +114,13 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="form-lable">Question</label>
+                        <label class="form-lable">Question</label><span class="text-danger">*</span>
                         <input type="text" name="question" class="form-control mb-2" placeholder="Question" >
                     </div>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Answer</label>
+                                <label class="form-lable">Answer</label><span class="text-danger">*</span>
                                 <textarea name="answer" class="form-control ckeditor mb-2" rows="2" placeholder="Answer"></textarea>
                             </div>
                         </div>
@@ -154,7 +154,7 @@
                 <div class="modal-body">
                     <input type="hidden" name="id" id="edit_id">
                     <div class="mb-3">
-                        <label class="form-label">University</label>
+                        <label class="form-label">University</label><span class="text-danger">*</span>
                         <select name="university_id" id="edit_university_id" class="form-select">
                             <option value="">-- Select University --</option>
                             @foreach ($universityes as $university)
@@ -163,11 +163,11 @@
                         </select>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Question</label>
+                        <label class="form-label">Question</label><span class="text-danger">*</span>
                         <input type="text" name="question" id="edit_question" class="form-control" placeholder="Question">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Answer</label>
+                        <label class="form-label">Answer</label><span class="text-danger">*</span>
                         <textarea name="answer" id="edit_answer" class="form-control ckeditor" rows="4" placeholder="Answer"></textarea>
                     </div>
                     <div class="mb-3">

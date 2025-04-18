@@ -104,7 +104,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-label">Blogs</label>
+                                <label class="form-label">Blogs</label><span class="text-danger">*</span>
                                 <select name="blog_id" id="blog_id" class="form-select">
                                     <option value="">-- Select Blog --</option>
                                     @if (!empty($blogs) && $blogs->count())
@@ -120,13 +120,13 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="form-lable">Question</label>
+                        <label class="form-lable">Question</label><span class="text-danger">*</span>
                         <input type="text" name="question" class="form-control mb-2" placeholder="Question" >
                     </div>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Answer</label>
+                                <label class="form-lable">Answer</label><span class="text-danger">*</span>
                                 <textarea name="answer" class="form-control ckeditor mb-2" rows="2" placeholder="Answer"></textarea>
                             </div>
                         </div>
@@ -161,7 +161,7 @@
                     <input type="hidden" name="form_type" value="edit">
                     <input type="hidden" name="id" id="edit_id">
                     <div class="mb-3">
-                        <label class="form-label">Blog</label>
+                        <label class="form-label">Blog</label><span class="text-danger">*</span>
                         <select name="blog_id" id="edit_blog_id" class="form-select">
                             <option value="">-- Select Blog --</option>
                             @if (!empty($blogs) && $blogs->count())
@@ -174,11 +174,11 @@
                         </select>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Question</label>
+                        <label class="form-label">Question</label><span class="text-danger">*</span>
                         <input type="text" name="question" id="edit_question" class="form-control" placeholder="Question">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Answer</label>
+                        <label class="form-label">Answer</label><span class="text-danger">*</span>
                         <textarea name="answer" id="edit_answer" class="form-control ckeditor" rows="4" placeholder="Answer"></textarea>
                     </div>
                     <div class="mb-3">

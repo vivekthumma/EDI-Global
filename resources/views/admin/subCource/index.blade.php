@@ -115,7 +115,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Cources</label>
+                                <label class="form-label">Cources</label><span class="text-danger">*</span>
                                 <select name="cource_id" class="form-select mb-2">
                                     <option value="">-- Select Cource --</option>
                                     @foreach ($cources as $cource)
@@ -126,7 +126,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Sub Cource Name</label>
+                                <label class="form-lable">Sub Cource Name</label><span class="text-danger">*</span>
                                 <input type="text" name="sub_cource_name" class="form-control mb-2" placeholder="Sub Cource Name" >
                             </div>
                         </div>
@@ -134,13 +134,13 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Slug</label>
+                                <label class="form-lable">Slug</label><span class="text-danger">*</span>
                                 <input type="text" name="slug" class="form-control mb-2" placeholder="Slug" >
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Image</label>
+                                <label class="form-label">Image</label><span class="text-danger">*</span>
                                 <input type="file" name="image" class="form-control mb-2">
                             </div>
                         </div>
@@ -149,13 +149,13 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Icon</label>
+                                <label class="form-label">Icon</label><span class="text-danger">*</span>
                                 <input type="file" name="icon" class="form-control mb-2">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Brochure</label>
+                                <label class="form-label">Brochure</label><span class="text-danger">*</span>
                                 <input type="file" name="brochure" class="form-control mb-2">
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Eligibility</label>
+                                <label class="form-lable">Eligibility</label><span class="text-danger">*</span>
                                 <input type="text" name="eligibility" class="form-control mb-2" placeholder="eligibility" >
                             </div>
                         </div>
@@ -171,7 +171,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Short Content</label>
+                                <label class="form-lable">Short Content</label><span class="text-danger">*</span>
                                 <textarea name="short_content" class="form-control mb-2" rows="2" placeholder="Short Content"></textarea>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Subject / Syllabus</label>
+                                <label class="form-lable">Subject / Syllabus</label><span class="text-danger">*</span>
                                 <textarea name="syllabus" class="form-control ckeditor mb-2" rows="2" placeholder="Syllabus"></textarea>
                             </div>
                         </div>
@@ -187,7 +187,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">About</label>
+                                <label class="form-lable">About</label><span class="text-danger">*</span>
                                 <textarea name="about" id="addAbout" class="form-control ckeditor mb-2" rows="2" placeholder="About"></textarea>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Admission Process</label>
+                                <label class="form-lable">Admission Process</label><span class="text-danger">*</span>
                                 <textarea name="admission_process" class="form-control ckeditor mb-2" rows="2" placeholder="Admission Process"></textarea>
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Carrier Scope</label>
+                                <label class="form-lable">Carrier Scope</label><span class="text-danger">*</span>
                                 <textarea name="carrier_scope" class="form-control ckeditor mb-2" rows="2" placeholder="Carrier Scope"></textarea>
                             </div>
                         </div>
@@ -212,13 +212,13 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Meta Title</label>
+                                <label class="form-lable">Meta Title</label><span class="text-danger">*</span>
                                 <input type="text" name="meta_title" class="form-control mb-2" placeholder="Meta Title" >
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Meta Description</label>
+                                <label class="form-lable">Meta Description</label><span class="text-danger">*</span>
                                 <textarea name="meta_description" class="form-control mb-2" rows="2" placeholder="Meta Description"></textarea>
                             </div>
                         </div>
@@ -261,7 +261,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label">Cources</label>
+                                <label class="form-label">Cources</label><span class="text-danger">*</span>
                                 <select name="cource_id" id="editCourceId" class="form-select mb-2">
                                     <option value="">-- Select Cource --</option>
                                     @foreach ($cources as $cource)
@@ -272,7 +272,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Sub Cource Name</label>
+                                <label class="form-lable">Sub Cource Name</label><span class="text-danger">*</span>
                                 <input type="text" name="sub_cource_name" id="editSubCourceName" class="form-control mb-2" placeholder="Sub Cource Name" >
                             </div>
                         </div>
@@ -287,7 +287,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Slug</label>
+                                <label class="form-lable">Slug</label><span class="text-danger">*</span>
                                 <input type="text" name="slug" id="editSlug" class="form-control mb-2" placeholder="Slug" >
                             </div>
                         </div>
@@ -313,7 +313,7 @@
                         
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Eligibility</label>
+                                <label class="form-lable">Eligibility</label><span class="text-danger">*</span>
                                 <input type="text" name="eligibility" id="editEligibility" class="form-control mb-2" placeholder="eligibility" >
                             </div>
                         </div>
@@ -321,7 +321,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Short Content</label>
+                                <label class="form-lable">Short Content</label><span class="text-danger">*</span>
                                 <textarea name="short_content" class="form-control mb-2" id="editShortContent" rows="2" placeholder="Short Content"></textarea>
                             </div>
                         </div>
@@ -329,7 +329,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Subject / Syllabus</label>
+                                <label class="form-lable">Subject / Syllabus</label><span class="text-danger">*</span>
                                 <textarea name="syllabus" id="editSubjectSyllabus" class="form-control ckeditor mb-2" rows="2" placeholder="Syllabus"></textarea>
                             </div>
                         </div>
@@ -337,7 +337,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">About</label>
+                                <label class="form-lable">About</label><span class="text-danger">*</span>
                                 <textarea name="about" id="editAbout" class="form-control ckeditor mb-2" rows="2" placeholder="About"></textarea>
                             </div>
                         </div>
@@ -345,7 +345,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Admission Process</label>
+                                <label class="form-lable">Admission Process</label><span class="text-danger">*</span>
                                 <textarea name="admission_process" id="editAdmissionProcess" class="form-control ckeditor mb-2" rows="2" placeholder="Admission Process"></textarea>
                             </div>
                         </div>
@@ -353,7 +353,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="form-lable">Carrier Scope</label>
+                                <label class="form-lable">Carrier Scope</label><span class="text-danger">*</span>
                                 <textarea name="carrier_scope" id="editCarrierScope" class="form-control ckeditor mb-2" rows="2" placeholder="Carrier Scope"></textarea>
                             </div>
                         </div>
@@ -362,13 +362,13 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Meta Title</label>
+                                <label class="form-lable">Meta Title</label><span class="text-danger">*</span>
                                 <input type="text" name="meta_title" id="editMetaTitle" class="form-control mb-2" placeholder="Meta Title" >
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-lable">Meta Description</label>
+                                <label class="form-lable">Meta Description</label><span class="text-danger">*</span>
                                 <textarea name="meta_description" id="editMetaDescription" class="form-control mb-2" rows="2" placeholder="Meta Description"></textarea>
                             </div>
                         </div>

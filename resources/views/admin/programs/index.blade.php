@@ -98,11 +98,11 @@
                     </div>
                     <input type="hidden" name="form_type" value="add">
                     <div class="form-group">
-                        <label class="form-lable">Name</label>
+                        <label class="form-lable">Name</label><span class="text-danger">*</span>
                         <input type="text" name="name" class="form-control mb-2" placeholder="Name" >
                     </div>
                     <div class="form-group">
-                        <label class="form-lable">Duractions</label>
+                        <label class="form-lable">Duractions</label><span class="text-danger">*</span>
                         <input type="text" name="duractions" class="form-control mb-2" placeholder="duractions">
                     </div>
                     <div class="form-group">
@@ -149,11 +149,11 @@
                     <input type="hidden" name="form_type" value="edit">
                     <input type="hidden" name="id" id="edit_id">
                     <div class="form-group">
-                        <label class="form-label">Name</label>
+                        <label class="form-label">Name</label><span class="text-danger">*</span>
                         <input type="text" name="name" id="edit_name" class="form-control mb-2">
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Duractions</label>
+                        <label class="form-label">Duractions</label><span class="text-danger">*</span>
                         <input type="text" name="duractions" id="edit_duractions" class="form-control mb-2">
                     </div>
                     <div class="form-group">
